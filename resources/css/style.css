@@ -7,10 +7,48 @@ body {
   color: #fff;
   font-family: Verdana, Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1.618;
-  margin: 0;
   min-height: 100vh;
-  padding: 0;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
 }
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3.125rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+header, section {text-align: center;}
+
+footer p, 
+section p {
+  color: gray;
+  font-size: 1.313rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+p {color: gray;}
+
+section {margin-bottom: 1.5rem;}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {text-align: right;}
